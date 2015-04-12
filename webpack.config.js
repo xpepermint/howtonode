@@ -47,7 +47,7 @@ var settings = {
   localeRootPath: path.join(__dirname, 'locales'),
   // List of available locales. Leave the list empty if none. Make sure that
   // I18n files exist before running this script.
-  locales: []
+  locales: ['en']
 };
 
 function buildConfig(options) {
