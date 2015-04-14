@@ -1,0 +1,13 @@
+extends ./layouts/index
+
+block body
+  h1 Example: Login with email and password
+  br
+  if isAuthenticated
+    div You are authenticated as #{user.email}.
+    a(href='/logout') Logout
+  else
+    a(href='/login') Login
+  br
+  a(href='/login') Go to secure page
+    
